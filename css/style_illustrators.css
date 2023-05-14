@@ -101,7 +101,7 @@ header{
 }
 .card img{
     width:100%;
-}
+    }
 
 .card p{
 font-size:20px;
@@ -114,10 +114,12 @@ font-weight: 'medium';
     margin:10% 0;
     display: flex;
     justify-content: space-between;
+    gap:5px;
 }
 
 .immagini-final img{
     width:49%;
+    
 }
 
 footer {
@@ -332,6 +334,7 @@ font-weight: 'medium';
     margin:10% 0;
     display: flex;
     justify-content: space-between;
+    gap:5px;
 }
 
 .Immagini-final img{
@@ -542,6 +545,7 @@ margin-left:80px;
         margin:10% 0;
         display: flex;
         justify-content: space-between;
+        gap:5px;
     }
     
     .images-final img{
@@ -763,6 +767,7 @@ margin-left:80px;
             margin:10% 0;
             display: flex;
             justify-content: space-between;
+            gap:5px;
         }
         
         .Images-final img{
@@ -976,6 +981,7 @@ margin-left:80px;
                 margin:10% 0;
                 display: flex;
                 justify-content: space-between;
+                gap:5px;
             }
             
             .IMMAGINI-FINALI img{
@@ -1189,6 +1195,7 @@ font-family:'Inter';
     margin:10% 0;
     display: flex;
     justify-content: space-between;
+    gap:5px;
 }
 
 .immagini-ultime img{
