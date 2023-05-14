@@ -1,0 +1,308 @@
+
+body{
+    font-family: 'Alegreya', serif;
+font-family: 'Righteous', cursive;
+font-family: 'Stardos Stencil', cursive;
+font-family: 'Tiro Devanagari Hindi', serif;
+font-family: 'Alegreya', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Stardos Stencil', cursive;
+font-family: 'Tiro Devanagari Hindi', serif;
+background: black;
+}
+header{
+    width:100vw;
+    height:100vh;
+    background-image: url(../img/heroimage.png);
+    background-color:black;
+    background-position:bottom;
+    background-size:cover;
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+    
+
+}
+.continer-header{
+    margin-bottom: 150px;
+    color:whitesmoke;
+    text-align:center;
+    font-family: 'Righteous';
+
+}
+
+.continer-header h2{
+    font-size:4vmin;
+    font-family: 'Inter';
+    font-weight: normal;
+}
+.line{
+    width:150px;
+    height: 4px;
+    background:#fc036b;
+    margin:10px auto;
+    border-radius:5px;
+    margin-top: 5px;
+}
+.continer-header h1{
+    font-size: 7vmin;
+    margin-top:50px;
+    margin-bottom:30px;
+
+}
+
+.ctn{
+    padding: 8px 15px;
+    background:#fc036b;
+    border-radius:30px;
+    color:whitesmoke;
+    
+}
+.illustratori{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    
+   
+}
+.img_illustratore {
+    width:50%;
+}
+.img_illustratore img{
+    width:65%;
+    border-radius: 100%;
+    margin: 15%;
+}
+.testo-illustratore{
+    width: 50%;
+    text-align:center;
+    margin:auto;
+    font-family: 'Righteous';
+    
+}
+.testo-illustratore h1{
+    color:white;
+}
+   
+.testo-illustratore h2{
+    font-size:15px;
+    font-family:'Inter';
+    
+}
+.testo-illustratore h2 a{
+    color: #fc036b;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.testo-illustratore h2 a:hover{
+    color:black;
+}
+
+/*----Tim---*/
+.Illustratori{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.img_Illustratore {
+    width:50%;
+}
+.img_Illustratore img{
+    width:85%;
+    border-radius:100%;
+    margin: 15%;
+}
+.Testo-Illustratore{
+    width: 50%;
+    text-align:center;
+    margin:auto;
+    font-family: 'Righteous';
+}
+.Testo-Illustratore h2{
+    font-size:15px;
+    font-family: 'Inter';
+    
+}
+.Testo-Illustratore h2 a{
+    color: #fc036b;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.Testo-Illustratore h2 a:hover{
+    color:black;
+}
+
+/*--karlotta--*/
+.illustrators{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.img_illustrator{
+    width:50%;
+}
+.img_illustrator img{
+    width:65%;
+    border-radius: 100%;
+    margin: 15%;
+}
+.text-illustrator{
+    width: 50%;
+    text-align:center;
+    margin:auto;
+    font-family: 'Righteous';
+}
+.text-illustrator h2{
+    font-size:15px;
+    font-family: 'Inter';
+    
+}
+.text-illustrator h2 a{
+    color: #fc036b;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.text-illustrator h2 a:hover{
+    color:black;
+}
+
+/*xoana*/
+.Illustrators{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.Img_illustrator {
+    width:50%;
+}
+.Img_illustrator img{
+    width:85%;
+    border-radius: 100%;
+    margin: 15%;
+}
+.Text-illustrator{
+    width: 50%;
+    text-align:center;
+    margin:auto;
+    font-family: 'Righteous';
+}
+.Text-illustrator h2{
+    font-size:15px;
+    font-family: 'Inter';
+    
+}
+.Text-illustrator h2 a{
+    color: #fc036b;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.Text-illustrator h2 a:hover{
+    color:black;
+}
+
+/*linn*/
+.ILLUSTRATORS{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.IMG-ILLUSTRATOR{
+    width:50%;
+}
+.IMG-ILLUSTRATOR img{
+    width:65%;
+    border-radius: 100%;
+    margin: 15%;
+}
+.TEXT-ILLUSTRATOR{
+    width: 50%;
+    text-align:center;
+    margin:auto;
+    font-family: 'Righteous';
+}
+.TEXT-ILLUSTRATOR h2{
+    font-size:15px;
+    font-family: 'Inter';
+    
+}
+.TEXT-ILLUSTRATOR h2 a{
+    color: #fc036b;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.TEXT-ILLUSTRATOR h2 a:hover{
+    color:black;
+}
+
+/*laboca*/
+.ILLUSTRATORI{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.IMG-ILLUSTRATORE {
+    width:50%;
+}
+.IMG-ILLUSTRATORE img{
+    width:85%;
+    border-radius:100%;
+    margin: 15%;
+}
+.TESTO-ILLUSTRATORI{
+    width: 50%;
+    text-align:center;
+    margin:auto;
+    font-family: 'Righteous';
+}
+.TESTO-ILLUSTRATORI h2{
+    font-size:15px;
+    font-family: 'Inter';
+    
+}
+.TESTO-ILLUSTRATORI h2 a{
+    color: #fc036b;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.TESTO-ILLUSTRATORI h2 a:hover{
+    color:black;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    ul li:last-child {
+    margin-right: 0;
+    }
+    
+    ul li a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    ul li a:hover {
+    color: #666;
+
+    }
+

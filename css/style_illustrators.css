@@ -1,0 +1,1309 @@
+
+/*--Camilo--*/
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Alegreya', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Stardos Stencil', cursive;
+font-family: 'Tiro Devanagari Hindi', serif;
+font-family: 'Alegreya', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Stardos Stencil', cursive;
+font-family: 'Tiro Devanagari Hindi', serif;
+}
+.img-illustratore{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.img-illustratore img{
+    width: 350px;
+}
+
+.testo-illustratore h1{
+    text-align: center;
+    font-size:90px;
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+
+
+.helloim{
+    margin-left:-200px;
+}
+
+header{
+    margin-top: 30px;
+}
+
+.sottotitolo{
+    margin-top:100px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Inter';
+    
+}
+
+.sottotitolo-titolo{
+    font-size:60px;
+    font-weight:lighter;
+    
+}
+.sottotitolo-titolo{
+    font-size:30px;
+}
+.sottotitolo-titolo.surname{
+    margin-left:-5%;
+    
+}
+
+.paragrafo{
+    width:70%;
+    margin-top: 100px;
+    font-size:20px;
+    font-family: 'Inter';
+    font-weight: 'medium';
+}
+
+.content-body{
+    margin: 10% 10%;
+}
+
+.immagini-flex{
+    margin: 10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.immagini-flex img{
+    width: 30%;
+}
+
+.citazione{
+    width:100%;
+    margin-top:100px;
+    font-size:40px;
+    text-align:center;
+    font-family: 'Open Sans';
+    
+
+}
+.card{
+    display:flex;
+    margin:10% 0;
+    justify-content: space-between;
+}
+.card img{
+    width:100%;
+}
+
+.card p{
+font-size:20px;
+margin-right:100px;
+font-family: 'Inter';
+font-weight: 'medium';
+}
+
+.immagini-final{
+    margin:10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.immagini-final img{
+    width:49%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    ul li:last-child {
+    margin-right: 0;
+    }
+    
+    ul li a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    ul li a:hover {
+    color: #666;
+
+    }
+
+    @media (max-width:600px){
+
+        .img-illustratore{
+    flex-direction: column;
+    
+}
+.img-illustratore img{
+    width:200px;
+    margin-top:50px;
+    margin-left:192px;
+}
+
+.testo-illustratore{
+    text-align:center;
+    
+}
+.testo-illustratore h1{
+    font-size:50px;
+}
+
+.sottotitolo-titolo.name{
+    font-size:20px;
+   
+}
+
+.sottotitolo-titolo.surname{
+    font-size:20px;
+    margin-left:-8%;
+}
+
+.immagini-flex{
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.immagini-flex img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    }
+
+    .citazione{
+        font-size:20px;
+        margin-top:20px;
+    }
+
+    .card{
+        flex-direction:column;
+    }
+    .card p{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-bottom:30px;
+    }
+    .card img{
+width:70%;
+margin-left:80px;
+    }
+
+    .immagini-final{
+        flex-direction: column;
+    }
+
+    .immagini-final img{
+        padding-top: 30px;
+    padding-bottom: 30px;
+        width:75%;
+     margin-left:80px;
+    }
+
+}
+
+
+
+        
+    
+
+    /*--Tim--*/
+
+    body{
+    background-color:black;
+    color:white;
+}
+.img-Illustratore{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.img-Illustratore img{
+    width: 350px;
+}
+
+.Testo-Illustratore h1{
+    text-align: center;
+    font-size:90px;
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+
+
+.helloim{
+    margin-left:-200px;
+}
+
+header{
+    margin-top: 30px;
+}
+
+.Sottotitolo{
+    margin-top:100px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Inter';
+    
+}
+
+.Sottotitolo-titolo{
+    font-size:60px;
+    font-weight: lighter;
+    
+}
+.Sottotitolo-titolo{
+    font-size:30px;
+}
+.Sottotitolo-titolo.surname{
+    margin-left:-5%;
+    
+}
+
+.Paragrafo{
+    width:70%;
+    margin-top: 100px;
+    font-size:20px;
+    font-family: 'Inter';
+    font-weight: 'medium';
+}
+
+.Content-body{
+    margin: 10% 10%;
+}
+
+.Immagini-flex{
+    margin: 10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Immagini-flex img{
+    width: 30%;
+}
+
+.Citazione{
+    width:100%;
+    margin-top:100px;
+    font-size:40px;
+    text-align:center;
+    font-family: 'Open Sans';
+}
+.Card{
+    display:flex;
+    margin:10% 0;
+    justify-content: space-between;
+}
+.Card img{
+    width:100%;
+}
+
+.Card p{
+font-size:20px;
+margin-right:100px;
+font-family: 'Inter';
+font-weight: 'medium';
+}
+
+.Immagini-final{
+    margin:10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Immagini-final img{
+    width:49%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    ul li:last-child {
+    margin-right: 0;
+    }
+    
+    ul li a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    ul li a:hover {
+    color: #666;
+    }
+
+    @media (max-width:600px){
+
+        .img-Illustratore{
+    flex-direction: column;
+    
+}
+.img-Illustratore img{
+    width:200px;
+    margin-top:50px;
+    margin-left:192px;
+}
+
+.Testo-Illustratore{
+    text-align:center;
+    
+}
+.Testo-Illustratore h1{
+    font-size:50px;
+}
+
+.Sottotitolo-titolo.name{
+    font-size:20px;
+   
+}
+
+.Sottotitolo-titolo.surname{
+    font-size:20px;
+    margin-left:-8%;
+}
+
+.Immagini-flex{
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.Immagini-flex img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    }
+
+    .Citazione{
+        font-size:20px;
+        margin-top:20px;
+    }
+
+    .Card{
+        flex-direction:column;
+    }
+    .Card p{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-bottom:30px;
+    }
+    .Card img{
+width:70%;
+margin-left:80px;
+    }
+
+    .Immagini-final{
+        flex-direction: column;
+    }
+
+    .Immagini-final img{
+        padding-top: 30px;
+    padding-bottom: 30px;
+        width:75%;
+     margin-left:80px;
+    }
+}
+
+    /*--karlotta--*/
+    body{
+        background-color:black;
+        color:white;
+    }
+    .img-illustrator{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+    .img-illustrator img{
+        width: 350px;
+    }
+    
+    .text-illustrator h1{
+        text-align: center;
+        font-size:90px;
+        font-family: 'Inter';
+        font-weight: normal;
+    }
+    
+    
+    
+    .helloim{
+        margin-left:-200px;
+    }
+    
+    header{
+        margin-top: 30px;
+    }
+    
+    .Sub{
+        margin-top:100px;
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Inter';
+       ;
+    }
+    
+    .Sub-titolo{
+        font-size:60px;
+        font-weight:lighter 
+        
+    }
+    .Sub-titolo{
+        font-size:30px;
+    }
+    .Sub-titolo.surname{
+        margin-left:-5%;
+        
+    }
+    
+    .paragraph{
+        width:70%;
+        margin-top: 100px;
+        font-size:20px;
+        font-family: 'Inter';
+    }
+    
+    .contenuto-body{
+        margin: 10% 10%;
+    }
+    
+    .images-flex{
+        margin: 10% 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .images-flex img{
+        width: 30%;
+    }
+    
+    .citation{
+        width:100%;
+        margin-top:100px;
+        font-size:40px;
+        text-align:center;
+        font-family: 'Open sans';
+        
+    
+    }
+    .carta{
+        display:flex;
+        margin:10% 0;
+        justify-content: space-between;
+    }
+    .carta img{
+        width:100%;
+    }
+    
+    .carta p{
+    font-size:20px;
+    margin-right:100px;
+    font-family:'Open sans';
+    }
+    
+    .images-final{
+        margin:10% 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .images-final img{
+        width:49%;
+    }
+    
+    footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+        }
+        
+        ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+        
+        ul li {
+        display: inline-block;
+        margin-right: 20px;
+        }
+        
+        ul li:last-child {
+        margin-right: 0;
+        }
+        
+        ul li a {
+        color: #333;
+        text-decoration: none;
+        }
+        
+        ul li a:hover {
+        color: #666;
+        }
+        
+   
+   
+       @media (max-width:600px){
+
+        .img-illustrator {
+    flex-direction: column;
+        }
+    
+
+.img-illustrator img{
+    width:200px;
+    margin-top:50px;
+    margin-left:192px;
+}
+
+.text-illustrator{
+    text-align:center;
+    
+}
+.text-illustrator h1{
+    font-size:50px;
+}
+
+.Sub-titolo.name{
+    font-size:20px;
+   
+}
+
+.Sub-titolo.surname{
+    font-size:20px;
+    margin-left:-8%;
+}
+
+.images-flex{
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.images-flex img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    }
+
+    .citation{
+        font-size:20px;
+        margin-top:20px;
+    }
+
+    .carta{
+        flex-direction:column;
+    }
+    .carta p{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-bottom:30px;
+    }
+    .carta img{
+     width:70%;
+     margin-left:80px;
+    }
+
+    .images-final{
+        flex-direction: column;
+    }
+
+    .images-final img{
+        padding-top: 30px;
+    padding-bottom: 30px;
+        width:75%;
+     margin-left:80px;
+    }
+
+       }
+
+
+
+
+        
+    
+        
+
+        /*xoana*/
+        body{
+            background-color:black;
+            color:white;
+        }
+        .img-artist{
+            width:100%;
+            display:flex;
+            justify-content: center;
+        }
+        .img-artist img{
+            width: 350px;
+        }
+        
+        .testo-artist h1{
+            text-align: center;
+            font-size:90px;
+            font-family: 'Inter';
+            font-weight:normal;
+        }
+        
+        
+        
+        .helloim{
+            margin-left:-200px;
+        }
+        
+        header{
+            margin-top: 30px;
+        }
+        
+        .sub{
+            margin-top:100px;
+            text-align: center;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            font-family:'Inter';
+            
+        }
+        
+        .sub-titolo{
+            font-size:60px;
+            font-weight:lighter;
+            
+        }
+        .sub-titolo{
+            font-size:30px;
+        }
+        .sub-titolo.surname{
+            margin-left:-5%;
+            
+        }
+        
+        .Paragraph{
+            width:70%;
+            margin-top: 100px;
+            font-size:20px;
+            font-family: 'Inter';
+        }
+        
+        .contents-body{
+            margin: 10% 10%;
+        }
+        
+        .Images-flex{
+            margin: 10% 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .Images-flex img{
+            width: 30%;
+        }
+        
+        .Citation{
+            width:100%;
+            margin-top:100px;
+            font-size:40px;
+            text-align:center;
+            font-family:'Open sans'
+            
+        
+        }
+        .Carta{
+            display:flex;
+            margin:10% 0;
+            justify-content: space-between;
+        }
+        .Carta img{
+            width:100%;
+        }
+        
+        .Carta p{
+        font-size:20px;
+        margin-right:100px;
+        font-family:'Inter';
+        }
+        
+        .Images-final{
+            margin:10% 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .Images-final img{
+            width:49%;
+        }
+        
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+            }
+            
+            ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            }
+            
+            ul li {
+            display: inline-block;
+            margin-right: 20px;
+            }
+            
+            ul li:last-child {
+            margin-right: 0;
+            }
+            
+            ul li a {
+            color: #333;
+            text-decoration: none;
+            }
+            
+            ul li a:hover {
+            color: #666;
+            }
+        
+
+        @media (max-width:600px) {
+
+            .img-artist {
+        flex-direction: column;
+        
+    }
+    .img-artist img{
+        width:200px;
+        margin-top:50px;
+        margin-left:192px;
+    }
+    
+    .testo-artist{
+        text-align:center;
+        
+    }
+    .testo-artist h1{
+        font-size:50px;
+    }
+    
+    .sub-titolo.name{
+        font-size:20px;
+       
+    }
+    
+    .sub-titolo.surname{
+        font-size:20px;
+        margin-left:-0%;
+    }
+    
+    .Images-flex{
+        flex-direction:column;
+        align-items: center;
+        
+    }
+    
+    .Images-flex img{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 50%;
+        }
+    
+        .Citation{
+            font-size:20px;
+            margin-top:20px;
+        }
+    
+        .Carta{
+            flex-direction:column;
+        }
+        .Carta p{
+            font-size: 20px;
+            margin-left: 100px;
+            margin-bottom:30px;
+        }
+        .Carta img{
+    width:70%;
+    margin-left:80px;
+        }
+    
+        .Images-final{
+            flex-direction: column;
+        }
+    
+        .Images-final img{
+            padding-top: 30px;
+        padding-bottom: 30px;
+            width:80%;
+         margin-left:80px;
+        }
+    
+        }
+    
+
+            /*linn*/
+            body{
+                background-color:black;
+                color:white;
+            }
+            .IMG-ILLUSTRATORE{
+                width:100%;
+                display:flex;
+                justify-content: center;
+            }
+            .IMG-ILLUSTRATORE img{
+                width: 350px;
+            }
+            
+            .TESTO-ILLUSTRATORE h1{
+                text-align: center;
+                font-size:90px;
+                font-family:'Inter';
+                font-weight:normal;
+            }
+            
+            
+            
+            .helloim{
+                margin-left:-200px;
+            }
+            
+            header{
+                margin-top: 30px;
+            }
+            
+            .SOTTOTITOLO{
+                margin-top:100px;
+                text-align: center;
+                display:flex;
+                justify-content: center;
+                flex-direction: column;
+                font-family:'Inter';
+
+            }
+            
+            .SOTTOTITOLO-titolo{
+                font-size:60px;
+                font-weight: lighter;
+                
+            }
+            .SOTTOTITOLO-titolo{
+                font-size:30px;
+            }
+            .SOTTOTITOLO-titolo.surname{
+                margin-left:-5%;
+                
+            }
+            
+            .PARAGRAFO{
+                width:70%;
+                margin-top: 100px;
+                font-size:20px;
+                font-family:'Inter';
+            }
+            
+            .CONTENUTO-BODY{
+                margin: 10% 10%;
+            }
+            
+            .IMMAGINI-FLEX{
+                margin: 10% 0;
+                display: flex;
+                justify-content: space-between;
+            }
+            .IMMAGINI-FLEX img{
+                width: 30%;
+            }
+            
+            .CITAZIONE{
+                width:100%;
+                margin-top:100px;
+                font-size:40px;
+                text-align:center;
+                font-family:'Open sans';
+                
+            
+            }
+            .CARTA{
+                display:flex;
+                margin:10% 0;
+                justify-content: space-between;
+            }
+            .CARTA img{
+                width:100%;
+            }
+            
+            .CARTA p{
+            font-size:20px;
+            margin-right:100px;
+            font-family:'Inter';
+            }
+            
+            .IMMAGINI-FINALI{
+                margin:10% 0;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .IMMAGINI-FINALI img{
+                width:49%;
+            }
+            
+            footer {
+                background-color: #f2f2f2;
+                padding: 20px;
+                text-align: center;
+                }
+                
+                ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                }
+                
+                ul li {
+                display: inline-block;
+                margin-right: 20px;
+                }
+                
+                ul li:last-child {
+                margin-right: 0;
+                }
+                
+                ul li a {
+                color: #333;
+                text-decoration: none;
+                }
+                
+                ul li a:hover {
+                color: #666;
+                }
+
+                @media (max-width:600px){
+
+                    .IMG-ILLUSTRATORE{
+                flex-direction: column;
+                
+            }
+            .IMG-ILLUSTRATORE img{
+                width:200px;
+                margin-top:50px;
+                margin-left:192px;
+            }
+            
+            .TESTO-ILLUSTRATORE{
+                text-align:center;
+                
+            }
+            .TESTO-ILLUSTRATORE h1{
+                font-size:50px;
+            }
+            
+            .SOTTOTITOLO-titolo.name{
+                font-size:20px;
+               
+            }
+            
+            .SOTTOTITOLO-titolo.surname{
+                font-size:20px;
+                margin-left:-8%;
+            }
+            
+            .IMMAGINI-FLEX{
+                flex-direction:column;
+                align-items: center;
+                
+            }
+            
+            .IMMAGINI-FLEX img{
+                padding-top: 30px;
+                padding-bottom: 30px;
+                width: 70%;
+                }
+            
+                .CITAZIONE{
+                    font-size:20px;
+                    margin-top:20px;
+                }
+            
+                .CARTA{
+                    flex-direction:column;
+                }
+                .CARTA p{
+                    font-size: 20px;
+                    margin-left: 100px;
+                    margin-bottom:30px;
+                }
+                .CARTA img{
+            width:70%;
+            margin-left:80px;
+                }
+            
+                .IMMAGINI-FINALI{
+                    flex-direction: column;
+                }
+            
+                .IMMAGINI-FINALI img{
+                    padding-top: 30px;
+                padding-bottom: 30px;
+                    width:75%;
+                 margin-left:80px;
+                }
+            
+            }
+            
+            
+                
+    
+/*laboca*/
+body{
+    background-color:black;
+    color:white;
+}
+.img-hero{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.img-hero img{
+    width: 350px;
+}
+
+.descrizione-illustratore h1{
+    text-align: center;
+    font-size:90px;
+    font-family:'Inter';
+    font-weight:normal;
+}
+
+
+
+.helloim{
+    margin-left:-200px;
+}
+
+header{
+    margin-top: 30px;
+}
+
+.SUB{
+    margin-top:100px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-style:'Inter';
+}
+
+.SUB-titolo{
+    font-size:60px;
+    font-weight:lighter;
+    
+}
+.SUB-titolo{
+    font-size:30px;
+}
+.SUB-titolo.surname{
+    margin-left:-5%;
+    
+}
+
+.paragrafi{
+    width:70%;
+    margin-top: 100px;
+    font-size:20px;
+    font-style:'Inter';
+}
+
+.contenuti-body{
+    margin: 10% 10%;
+}
+
+.immagini-flexs{
+    margin: 10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.immagini-flexs img{
+    width: 30%;
+}
+
+.frase-paragrafo{
+    width:100%;
+    margin-top:100px;
+    font-size:40px;
+    text-align:center;
+    font-family:'Open sans';
+    
+
+}
+.cards{
+    display:flex;
+    margin:10% 0;
+    justify-content: space-between;
+}
+.cards img{
+    width:100%;
+}
+
+.cards p{
+font-size:20px;
+margin-right:100px;
+font-family:'Inter';
+}
+
+.immagini-ultime {
+    margin:10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.immagini-ultime img{
+    width:49%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    ul li:last-child {
+    margin-right: 0;
+    }
+    
+    ul li a {
+    color: #333;
+    text-decoration: none;
+    }
+    
+    ul li a:hover {
+    color: #666;
+    }
+
+    @media (max-width:600px){
+
+        .img-hero{
+    flex-direction: column;
+    
+}
+.img-hero img{
+    width:200px;
+    margin-top:50px;
+    margin-left:192px;
+}
+
+.descrizione-illustratore{
+    text-align:center;
+    
+}
+.descrizione-illustratore h1{
+    font-size:50px;
+}
+
+.SUB-titolo.name{
+    font-size:20px;
+   
+}
+
+.SUB-titolo.surname{
+    font-size:20px;
+    margin-left:-8%;
+}
+
+.immagini-flexs{
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.immagini-flexs img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    }
+
+    .frase-paragrafo{
+        font-size:20px;
+        margin-top:20px;
+    }
+
+    .cards{
+        flex-direction:column;
+    }
+    .cards p{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-bottom:30px;
+    }
+    .cards img{
+width:70%;
+margin-left:80px;
+    }
+
+    .immagini-ultime{
+        flex-direction: column;
+        margin-left:130px;
+        width:100%;
+        padding-bottom:50px;
+             
+    }
+
+    .immagini-utlime img{
+        padding-top: 30px;
+    padding-bottom: 30px;
+    
+         
+    
+    }
+    
+}
+       
+
+
+
+       
