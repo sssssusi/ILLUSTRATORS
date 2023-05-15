@@ -513,7 +513,7 @@ margin-left:80px;
         font-size:30px;
     }
     .Sub-titolo.surname{
-        margin-left:-5%;
+        margin-left:-11%;
         
     }
     
@@ -746,7 +746,7 @@ margin-left:80px;
             font-size:30px;
         }
         .sub-titolo.surname{
-            margin-left:-5%;
+            margin-left:1%;
             
         }
         
@@ -960,7 +960,7 @@ margin-left:80px;
                 font-size:30px;
             }
             .SOTTOTITOLO-titolo.surname{
-                margin-left:-5%;
+                margin-left:-11%;
                 
             }
             
@@ -1164,7 +1164,7 @@ header{
     display:flex;
     justify-content: center;
     flex-direction: column;
-    font-style:'Inter';
+    font-family:'Inter';
 }
 
 .SUB-titolo{
@@ -1245,6 +1245,7 @@ footer {
     list-style: none;
     margin: 0;
     padding: 0;
+    
     }
     
     ul li {
